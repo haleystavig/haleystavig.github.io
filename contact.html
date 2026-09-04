@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — hs.studioworks</title>
+  <meta name="description" content="Get in touch — questions, collaborations, or to start a portrait commission.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">hs.studioworks</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="portraits.html">Portraits</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="portraits.html#commission" class="nav-cta">Commission</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Get in Touch</h1>
+    <p>Questions, collaborations, or just want to say hello — I'd love to hear from you.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Let's talk about your home.</h3>
+        <p>Whether you're ready to commission a portrait or just have questions about the process, feel free to reach out. I typically reply within one to two business days.</p>
+        <p>Ready to commission? Use the <a href="portraits.html#commission" style="color:var(--accent);text-decoration:underline;text-underline-offset:3px;">commission form on the portraits page</a> for the fastest response.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Response time</span>
+            <span class="contact-detail-value">1–2 business days</span>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Based in</span>
+            <span class="contact-detail-value">Fargo, ND</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's on your mind?">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me more…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-logo">hs.studioworks</p>
+      <p class="footer-sub">Custom architectural portraits &amp; architecture portfolio</p>
+    </div>
+    <p class="footer-copy">&copy; 2026 hs.studioworks<br>All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

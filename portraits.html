@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portraits — hs.studioworks</title>
+  <meta name="description" content="Commission a hand-illustrated portrait of your home. View the gallery and start your order.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">hs.studioworks</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="portraits.html" class="active">Portraits</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#commission" class="nav-cta">Commission</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Portrait Gallery</h1>
+    <p>Hand-illustrated to order. Each portrait is unique, delivered as a high-resolution file ready to print and frame.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="gallery" id="portraits-gallery"></div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Process</p>
+      <h2 class="section-title">How It Works</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">Step 1</span>
+        <h3 class="step-title">Send Your Photos</h3>
+        <p class="step-body">Share clear photos of your home from the angle you love most. The more context, the better the portrait.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 2</span>
+        <h3 class="step-title">Review the Draft</h3>
+        <p class="step-body">You'll receive a pencil sketch for approval. We refine until you're happy before the final piece.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 3</span>
+        <h3 class="step-title">Receive Your Portrait</h3>
+        <p class="step-body">A high-resolution digital file lands in your inbox — ready to print at any size and hang wherever home means most.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section class="section" id="commission">
+  <div class="container-narrow">
+    <div class="section-header">
+      <p class="eyebrow">Get Started</p>
+      <h2 class="section-title">Commission a Portrait</h2>
+      <p class="section-sub">Tell me about your home. I'll be in touch within two business days to discuss details and pricing.</p>
+    </div>
+    <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="address">Property Address <span>(optional)</span></label>
+        <input type="text" id="address" name="address" placeholder="123 Main St, City, State">
+      </div>
+      <div class="form-group">
+        <label for="style">Home Style <span>(optional)</span></label>
+        <div class="select-wrap">
+          <select id="style" name="style">
+            <option value="">Select a style…</option>
+            <option>Victorian / Queen Anne</option>
+            <option>Craftsman / Bungalow</option>
+            <option>Colonial / Traditional</option>
+            <option>Mid-Century Modern</option>
+            <option>Prairie Style</option>
+            <option>Farmhouse</option>
+            <option>Contemporary</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Tell me about your home</label>
+        <textarea id="message" name="message" rows="5" placeholder="Special details, intended use (gift, personal keepsake, real estate), and any questions…"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-logo">hs.studioworks</p>
+      <p class="footer-sub">Custom architectural portraits &amp; architecture portfolio</p>
+    </div>
+    <p class="footer-copy">&copy; 2026 hs.studioworks<br>All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>loadGalleries({ portraits: 'portraits-gallery' });</script>
+</body>
+</html>

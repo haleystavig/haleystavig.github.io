@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hs.studioworks — Custom Architectural Portraits</title>
+  <meta name="description" content="Hand-illustrated custom house portraits and architecture portfolio by Haley. Commission a portrait of your home today.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">hs.studioworks</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="portraits.html">Portraits</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portraits.html#commission" class="nav-cta">Commission</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Custom Architectural Portraits</p>
+    <h1 class="hero-title">Your Home,<br><em>Rendered</em><br>in Detail</h1>
+    <p class="hero-body">Hand-illustrated portraits that capture the character of your home — a meaningful gift, a lasting piece of art.</p>
+    <div class="hero-btns">
+      <a href="portraits.html" class="btn btn-primary">Commission a Portrait</a>
+      <a href="portfolio.html" class="btn btn-outline">View Portfolio</a>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="images/portraits/featured.jpg" alt="Featured house portrait" onerror="this.style.display='none'">
+    <div class="img-ph">
+      <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="58" width="94" height="46" stroke="currentColor" stroke-width="1.5"/>
+        <polygon points="8,58 55,18 102,58" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="42" y="72" width="26" height="32" stroke="currentColor" stroke-width="1"/>
+        <rect x="16" y="67" width="17" height="17" stroke="currentColor" stroke-width="1"/>
+        <rect x="77" y="67" width="17" height="17" stroke="currentColor" stroke-width="1"/>
+        <line x1="55" y1="18" x2="55" y2="12" stroke="currentColor" stroke-width="1"/>
+        <line x1="51" y1="12" x2="59" y2="12" stroke="currentColor" stroke-width="1"/>
+      </svg>
+      <span>Featured portrait</span>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- Portrait preview -->
+<section class="section">
+  <div class="container">
+    <div class="section-header-row">
+      <div>
+        <p class="eyebrow">Commissions</p>
+        <h2 class="section-title">Portrait Gallery</h2>
+        <p class="section-sub">Each portrait is hand-illustrated to order — no two the same.</p>
+      </div>
+      <a href="portraits.html" class="btn btn-outline">View All Portraits</a>
+    </div>
+    <div class="gallery" id="home-portraits"></div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- Portfolio preview -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header-row">
+      <div>
+        <p class="eyebrow">Architecture Portfolio</p>
+        <h2 class="section-title">Studio Work</h2>
+        <p class="section-sub">Projects from four years of architecture school.</p>
+      </div>
+      <a href="portfolio.html" class="btn btn-outline">View Full Portfolio</a>
+    </div>
+    <div class="gallery" id="home-portfolio"></div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- How it works -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Process</p>
+      <h2 class="section-title">How It Works</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">Step 1</span>
+        <h3 class="step-title">Send Your Photos</h3>
+        <p class="step-body">Share clear photos of your home — front elevation, any angles or details you love.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 2</span>
+        <h3 class="step-title">Review the Draft</h3>
+        <p class="step-body">You'll receive a pencil sketch for approval before the final piece is completed.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 3</span>
+        <h3 class="step-title">Receive Your Portrait</h3>
+        <p class="step-body">A high-resolution file lands in your inbox — ready to print at any size.</p>
+      </div>
+    </div>
+    <div class="section-footer" style="text-align:center">
+      <a href="portraits.html#commission" class="btn btn-primary">Start a Commission</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-logo">hs.studioworks</p>
+      <p class="footer-sub">Custom architectural portraits &amp; architecture portfolio</p>
+    </div>
+    <p class="footer-copy">&copy; 2026 hs.studioworks<br>All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  loadGalleries({ portraits: 'home-portraits', portfolio: 'home-portfolio' });
+</script>
+</body>
+</html>

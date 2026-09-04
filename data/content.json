@@ -1,0 +1,34 @@
+{
+    "portraits": [
+        {
+            "title": "Portrait 1",
+            "description": "Add a description here",
+            "price": "$--",
+            "image": ""
+        },
+        {
+            "title": "Portrait 2",
+            "description": "Add a description here",
+            "price": "$--",
+            "image": ""
+        },
+        {
+            "title": "Portrait 3",
+            "description": "Add a description here",
+            "price": "$--",
+            "image": ""
+        }
+    ],
+    "portfolio": [
+        {
+            "title": "Project 1",
+            "description": "Add a description here",
+            "image": ""
+        },
+        {
+            "title": "Project 2",
+            "description": "Add a description here",
+            "image": ""
+        }
+    ]
+}
