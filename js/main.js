@@ -42,9 +42,6 @@ function portraitCard(item) {
     <div class="gc-img portrait-ratio">
       ${item.image ? `<img src="${item.image}" alt="${item.title}" loading="lazy">` : '<div class="gc-grid-ph"></div>'}
     </div>
-    <p class="gc-name">${item.title}</p>
-    <p class="gc-desc">${item.description}</p>
-    <p class="gc-price">${item.price}</p>
   </div>`;
 }
 
