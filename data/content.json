@@ -1,22 +1,22 @@
 {
     "portraits": [
         {
-            "title": "Portrait 1",
-            "description": "Add a description here",
-            "price": "$--",
-            "image": ""
+            "title": "Cabin 1",
+            "description": "",
+            "price": "",
+            "image": "images/portraits/Cabin%201.jpeg"
         },
         {
-            "title": "Portrait 2",
-            "description": "Add a description here",
-            "price": "$--",
-            "image": ""
+            "title": "Meissners",
+            "description": "",
+            "price": "",
+            "image": "images/portraits/Meissners.jpeg"
         },
         {
-            "title": "Portrait 3",
-            "description": "Add a description here",
-            "price": "$--",
-            "image": ""
+            "title": "The Martins",
+            "description": "",
+            "price": "",
+            "image": "images/portraits/The%20Martins.jpeg"
         }
     ],
     "portfolio": [
